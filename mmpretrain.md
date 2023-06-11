@@ -19,3 +19,9 @@
 # 模型训练
 ## python tools/train.py projects/fruit30_Classification/resnet50_fruit_classification.py --work-dir=./exp
 ![image](https://github.com/whoiswennie/openmmlab_work/assets/104626642/4eddbf5c-230b-4df4-b2e5-3795cab8029a)
+![image](https://github.com/whoiswennie/openmmlab_work/assets/104626642/1c802fd4-8185-40f3-b892-f3e385766604)
+# 模型测试
+# python tools/test.py projects/fruit30_Classification/resnet50_fruit_classification.py ./exp/epoch_100.pth --work-dir=./exp
+![image](https://github.com/whoiswennie/openmmlab_work/assets/104626642/a7131480-3dbd-4075-9741-4fb84d0c6086)
+# 模型推理
+![image](https://github.com/whoiswennie/openmmlab_work/assets/104626642/58b6f3bf-79ea-45bb-91e7-7ff649b9baef)
