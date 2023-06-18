@@ -66,7 +66,7 @@ for idx, sample in enumerate(samples):
 controls = output_dict['controls']
 for idx, control in enumerate(controls):
     control.save(f'control_{idx}.png')
-```
+
 
 # 效果展示
 ![image](https://github.com/whoiswennie/openmmlab_work/assets/104626642/e7561b3a-0e4e-4283-8536-6c46c8992816)
